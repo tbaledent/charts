@@ -1,10 +1,10 @@
 apiVersion: v1
 appVersion: "1.0"
 version: 1.0.8
-description: PgBouncer chart, folked from https://github.com/cradlepoint/kubernetes-helm-chart-pgbouncer with some custom values
+description: PgBouncer chart, forked from https://github.com/duyet/charts/tree/master/pgbouncer which is forked from https://github.com/cradlepoint/kubernetes-helm-chart-pgbouncer with some custom values
 name: pgbouncer
-home: https://github.com/duyet/charts/tree/master/pgbouncer
+home: https://github.com/tbaledent/charts/tree/master/pgbouncer
 maintainers:
-  - name: duyet
-    email: me@duyet.net
-    url: https://github.com/duyet
+  - name: tbaledent
+    email: tbaledent@gmail.com
+    url: https://github.com/tbaledent
