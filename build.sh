@@ -6,7 +6,7 @@ DIST_DIR=.dist
 helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 helm repo add bitnami https://charts.bitnami.com/bitnami
 
-for chart in ./pgbouncer/*; do
+for chart in ./*; do
     if [ -f "$chart/Chart.yaml" ]; then
         helm dependency update $chart
         helm dependency build $chart
