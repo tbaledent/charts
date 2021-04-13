@@ -1,2 +1,0 @@
-Created a Commento at {{ .Values.originUrl }} with following Pod labels:
-{{- include "commento.labels" . }}
